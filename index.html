@@ -1,0 +1,113 @@
+<html>
+<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Kalkulator</title>
+	<meta name="description" content="Oblicz swoje działania" />
+	<meta name="keywords" content="kalkulator, oblicz, google, Pawel" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="style.css" />
+	
+	<script src="skrypt.js"></script>
+	<head>
+</head>
+
+<body>
+<main>
+    <div class="calculator">
+        <input type="text" id="show" maxlength="18" disabled />
+<div class="container">
+        <input type="text" id="show2" maxlength="18"  />
+  <table>
+     <tr>
+        <th>
+        <button id="popElm" value='mrc' onclick="CharSet(' ')">C</button>
+        </th>
+      <th>
+        <button id="lBracket" value='('  onclick="char('(')">(</button>
+          </th>
+      <th>
+        <button id="rBracket" value=')' onclick="char(')')">)</button>
+          </th>
+      <!--<th>
+        <button id="percent" value='%' onclick="math('%')">%</button>
+          </th>-->
+      <th>
+        <button id="clearCalc" value='clear' onclick="ClearIt()">CE</button>
+         </th>
+         </tr>
+      <tr>
+         <!--<th>
+        <button id="ln" value='ln' onclick="math('ln()')">ln</button>
+             </th>-->
+      <th>
+        <button id="seven" value='7' onclick="math(7)">7</button>
+          </th>
+      <th>
+        <button id="eight" value='8' onclick="math(8)">8</button>
+          </th>
+      <th>
+        <button id="nine" value='9' onclick="math(9)">9</button>
+          </th>
+      <th>
+        <button id="split" value='/' onclick="char('/')">/</button>
+        </th>
+          </tr>
+      <tr>
+        <!--<th>
+        <button id="log" value='log' onclick="math('log()')">log</button>
+             </th>-->
+      <th>
+        <button id="four" value='4' onclick="math(4)">4</button>
+          </th>
+      <th>
+        <button id="five" value='5' onclick="math(5)">5</button>
+          </th>
+      <th>
+        <button id="six" value='6' onclick="math(6)">6</button>
+          </th>
+      <th>
+        <button id="increase" value='*' onclick="char('*')">x</button>
+        </th>
+          <th></th>
+         </tr>
+      <tr>
+         <!--<th>
+        <button id="root" value='&#8730;' onclick="math('&#8730;()')">&#8730;</button>
+             </th>-->
+      <th>
+        <button id="one" value='1' onclick="math(1)">1</button>
+          </th>
+      <th>
+        <button id="two" value='2' onclick="math(2)">2</button>
+          </th>
+      <th>
+        <button id="three" value='3' onclick="math(3)">3</button>
+          </th>
+      <th>
+        <button id="minus" value='-' onclick="char('-')">-</button>
+        </th>
+         </tr>
+      <tr>
+         <!--<th>
+        <button id="might" value='^' onclick="math('^')">x<sup>y</sup></button>
+             </th>-->
+      <th>
+        <button id="zero" value='0' onclick="math(0)">0</button>
+          </th>
+      <th>
+        <button id="dot" value='dot' onclick="char('.')">.</button>
+          </th>
+      <th>
+        <button id="equal" value='=' onclick="Endfunc()">=</button>
+          </th>
+      <th>
+        <button id="plus" value='+' onclick="char('+')">+</button>
+         </th>
+      </tr>
+  </table>
+        </div>
+    </div>
+</main>
+</body>
+</html>

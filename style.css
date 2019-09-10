@@ -1,0 +1,81 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:100%;
+        font-weight: bold;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display:flex;
+    background-color: dimgray
+}
+
+input
+{   
+    width: 100%;
+    height: 10vh;
+    font-size: 3em;
+    display: block;
+}
+
+#show{
+    background-color:darkgrey;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+
+button{
+    display: inline;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display:block;
+    padding: 2%;
+}
+
+ 
+
+table, td {
+    border: 1px solid black;
+}
+
+th, td{
+    width: 30%;
+    height: 7vh;
+}
+
+.container{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+   display: inline;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.calculator
+{
+    display: block;
+    border-radius: 5%;
+    width: 100%;
+    max-width: 500px;
+    height: 60vh;
+    position: relative;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 1%;
+    flex-wrap: nowrap;
+}
