@@ -1,6 +1,6 @@
 # Calculator
 
-One of the first some applications which I created
+One of the first application which I created
 This is simply calculator.
 Deploy year is 2017
 
